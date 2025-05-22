@@ -1,0 +1,111 @@
+html, body{
+    overflow-x:hidden;
+}
+
+
+.s2{
+    background-color: rgb(26, 130, 148);
+}
+.inbox1{
+    width: 100%;
+}
+
+.inbox2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+   
+   
+}
+.h2{
+    border: 5px solid black;
+}
+.bt{
+    background-color: rgb(1, 1, 1);
+    color: whitesmoke;
+   
+}
+
+.inbox3{
+    text-align: center;
+}
+.hr{
+    width: 50%;
+    
+    margin: auto;
+}
+.bt1{
+     border: 3px solid rgb(9, 9, 90); 
+}
+.s3{
+    margin: 35px;
+}
+.s4{
+    background-color: rgb(26, 130, 148);
+    position: relative;
+}
+.inbox4{
+    
+    padding: 15px;
+    text-align: center;
+}
+.inbox5{
+    
+    padding: 15px;
+    text-align: center;
+}
+.inbox6{
+    
+    padding: 15px;
+    text-align: center;
+}
+.p{
+    text-align: justify;
+}
+.s5{
+    background-color: black;
+    color: aliceblue;
+    padding: 30px;
+}
+.inbox7{
+    text-align: center;
+}
+.s6{
+    min-height: 250px;
+}
+.inbox8{
+    margin: 10px 0px;
+       
+}
+
+.img-fluid{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+.s7{
+    background-color: black;
+    
+}
+.inbox9{
+    text-align: center;
+    color: azure;
+    margin: 20px;
+}
+.inbox10{
+    text-align: center;
+    padding: 15px;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid  rgb(26, 130, 148);
+    position: absolute;
+    bottom: -20px;
+    left:calc(50% - 50px);
+}
